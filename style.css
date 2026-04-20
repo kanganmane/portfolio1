@@ -544,3 +544,290 @@ footer{
 .fticons i:hover{
     color: red;
 }
+
+
+/* =====================
+   RESPONSIVE / MOBILE
+   ===================== */
+
+/* Tablet (max 1200px) */
+@media (max-width: 1200px) {
+  .container,
+  .pjcontainer {
+    width: 95%;
+    padding: 0 1rem;
+  }
+
+  .hero {
+    gap: 2rem;
+    margin: 2rem auto;
+  }
+
+  .faded {
+    font-size: 5em;
+  }
+
+  .skill-fade-text {
+    font-size: 7rem;
+  }
+}
+
+/* Mobile (max 768px) */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .navitems a {
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 0 1rem 4rem;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .heroleft {
+    align-items: center;
+    order: 2;
+  }
+
+  .heroright {
+    order: 1;
+    margin-right: 0;
+  }
+
+  .kangan img {
+    width: 250px;
+  }
+
+  .faded {
+    display: none;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .herosub {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .des {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Projects */
+  #projects {
+    margin-top: 2rem;
+  }
+
+  .projectheading {
+    font-size: 50px;
+    padding-top: 20px;
+  }
+
+  .pjcontainer {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    gap: 60px;
+  }
+
+  .pjcard {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .pjcontent {
+    width: 100%;
+    position: relative;
+    bottom: auto;
+    left: auto !important;
+    right: auto !important;
+    padding: 1.5rem;
+    color: white;
+  }
+
+  .pjheading {
+    font-size: 26px;
+    line-height: 2rem;
+  }
+
+  .pjsub {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .pjnumber {
+    font-size: 100px;
+    display: block;
+    opacity: 0.2;
+    top: 10px;
+    right: 10px;
+    left: auto;
+  }
+
+  /* Skills */
+  .skills-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin: 4rem auto;
+  }
+
+  .skill-container-left,
+  .skill-container-right {
+    width: 100%;
+  }
+
+  .skill-heading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .caps {
+    font-size: 60px;
+  }
+
+  .skill-subHeading {
+    width: 100%;
+  }
+
+  .skills-logo {
+    width: 65px;
+  }
+
+  .skill-fade-text {
+    display: none;
+  }
+
+  .blob-style {
+    width: 250px;
+  }
+
+  /* Contact */
+  #conheading {
+    font-size: 3em;
+    padding-top: 1.5rem;
+  }
+
+  #consub {
+    font-size: 1.5rem;
+  }
+
+  #formcontainer {
+    padding: 2rem 1rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .formtext {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  textarea {
+    font-size: 16px;
+    padding: 0.7rem 1rem;
+  }
+
+  #sendmessage {
+    width: 180px;
+    font-size: 16px;
+  }
+
+  /* Footer */
+  .ftwrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    text-align: center;
+  }
+
+  .ftfaded {
+    display: none;
+  }
+
+  .ftlinks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fticons {
+    justify-content: center;
+  }
+}
+
+/* Small Mobile (max 480px) */
+@media (max-width: 480px) {
+  .herosub {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .kangan img {
+    width: 200px;
+  }
+
+  .projectheading {
+    font-size: 36px;
+  }
+
+  .pjheading {
+    font-size: 22px;
+    line-height: 1.8rem;
+  }
+
+  .skill-heading {
+    font-size: 28px;
+  }
+
+  .caps {
+    font-size: 50px;
+  }
+
+  .skills-logo {
+    width: 55px;
+  }
+
+  #conheading {
+    font-size: 2.2em;
+  }
+
+  #consub {
+    font-size: 1.2rem;
+  }
+}
